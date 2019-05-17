@@ -23,7 +23,7 @@ export class ClefNotesComponent implements OnInit {
     'assets/tG5n.gif'];
 
   notes = [];
-  answer = 'X';
+  answer = '';
   constructor() { }
 
   ngOnInit() {
@@ -35,6 +35,7 @@ export class ClefNotesComponent implements OnInit {
   }
 
   shuffle() {
+    this.answer = '';
     this.notes = [];
 
     while (this.notes.length !== 6) {

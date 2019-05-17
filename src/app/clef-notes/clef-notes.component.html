@@ -1,32 +1,32 @@
 <div class="container">
-    <div class="row">
-        <div class="col centered">
-            <button (click)='shuffle()'>Shuffle</button>
-          </div>
-          <div class="col font-weight-bold" >
-              {{ answer }}
-            </div>
-    </div>
   <div class="row">
-    <div class="col">
-      <img [src]='notes[0]' (click)='check(0)'>
+    <div class="col centered">
+      <button (click)="shuffle()">Shuffle</button>
     </div>
-    <div class="col">
-        <img [src]='notes[1]' (click)='check(1)'>
-    </div>
-    <div class="col">
-        <img [src]='notes[2]' (click)='check(2)'>
+    <div class="col font-weight-bold">
+      {{ answer }}
     </div>
   </div>
   <div class="row">
     <div class="col">
-        <img [src]='notes[3]' (click)='check(3)'>
+      <img [src]="notes[0]" (click)="check(0)" />
     </div>
     <div class="col">
-        <img [src]='notes[4]' (click)='check(4)'>
+      <img [src]="notes[1]" (click)="check(1)" />
     </div>
     <div class="col">
-        <img [src]='notes[5]' (click)='check(5)'>
+      <img [src]="notes[2]" (click)="check(2)" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img [src]="notes[3]" (click)="check(3)" />
+    </div>
+    <div class="col">
+      <img [src]="notes[4]" (click)="check(4)" />
+    </div>
+    <div class="col">
+      <img [src]="notes[5]" (click)="check(5)" />
     </div>
   </div>
 </div>
