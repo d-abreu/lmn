@@ -1,0 +1,1 @@
+ngh -d "dist\lmn" -S
