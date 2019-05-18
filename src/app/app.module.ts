@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ClefNotesComponent } from './clef-notes/clef-notes.component';
+import { TrebleClefNotesComponent } from './treble-clef-notes/treble-clef-notes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClefNotesComponent
+    TrebleClefNotesComponent
   ],
   imports: [
     BrowserModule,

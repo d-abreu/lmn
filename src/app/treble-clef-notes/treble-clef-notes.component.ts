@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-clef-notes',
-  templateUrl: './clef-notes.component.html',
-  styleUrls: ['./clef-notes.component.css']
+  selector: 'app-treble-clef-notes',
+  templateUrl: './treble-clef-notes.component.html',
+  styleUrls: ['./treble-clef-notes.component.css']
 })
-export class ClefNotesComponent implements OnInit {
+export class TrebleClefNotesComponent implements OnInit {
   private allNotes = [
     'assets/tA4n.gif',
     'assets/tA5n.gif',

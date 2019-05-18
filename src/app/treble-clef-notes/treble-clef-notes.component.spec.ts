@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ClefNotesComponent } from './clef-notes.component';
+import { TrebleClefNotesComponent } from './treble-clef-notes.component';
 
 describe('ClefNotesComponent', () => {
-  let component: ClefNotesComponent;
-  let fixture: ComponentFixture<ClefNotesComponent>;
+  let component: TrebleClefNotesComponent;
+  let fixture: ComponentFixture<TrebleClefNotesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ClefNotesComponent ]
+      declarations: [ TrebleClefNotesComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ClefNotesComponent);
+    fixture = TestBed.createComponent(TrebleClefNotesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

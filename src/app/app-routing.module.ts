@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ClefNotesComponent } from './clef-notes/clef-notes.component';
+import { TrebleClefNotesComponent } from './treble-clef-notes/treble-clef-notes.component';
 
 const routes: Routes = [
-  { path: 'clef', component: ClefNotesComponent },
-  { path: '**', component: ClefNotesComponent, pathMatch: 'full' }
+  { path: 'treble', component: TrebleClefNotesComponent },
+  { path: '**', component: TrebleClefNotesComponent, pathMatch: 'full' }
 ];
 
 @NgModule({
