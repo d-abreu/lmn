@@ -39,9 +39,9 @@ export class TrebleClefNotesComponent implements OnInit {
     this.notes = [];
 
     while (this.notes.length !== 6) {
-      const rn = Math.floor(Math.random() * (this.allNotes.length - 1)) + 1;
+      const rn = Math.floor(Math.random() * this.allNotes.length);
 
-      if (this.notes.indexOf(rn) === -1) {
+      if (this.notes.indexOf(this.allNotes[rn]) === -1) {
         this.notes.push(this.allNotes[rn]);
       }
     }
